@@ -21,5 +21,6 @@ int main(){
     cin>>s;
     replace(s);
     cout<<"null committed"<<endl;
+    cout<<"committed"<<endl;
     return 0;
     }
