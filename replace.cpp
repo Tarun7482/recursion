@@ -20,5 +20,6 @@ int main(){
     cout<<"enter the string"<<endl;
     cin>>s;
     replace(s);
+    cout<<"null committed"<<endl;
     return 0;
     }
