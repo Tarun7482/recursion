@@ -46,6 +46,7 @@ int main(){
    cin>>s;
   // duplicates(s);
    remove_duplicates(s);
+   cout<<"committed";
    return 0;
 
 }
