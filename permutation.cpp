@@ -9,13 +9,11 @@ string permuataion(string s,string ans){
         return ans;
 
     }
- for(int i=0;i<3;i++){
+ for(int i=0;i<s.length();i++){
     char ch=s[i];
     string ros=s.substr(0,i)+s.substr(i+1);
     permuataion(ros,ans+ch);
  }
-
-
 }
 int main(){
     string s;
